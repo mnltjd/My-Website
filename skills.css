@@ -1,0 +1,56 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+    background-color: #191919;
+
+}
+.about img{
+    height: auto;
+    width: 430px;
+    margin-top: 120px;
+    
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-text h2{
+    color: aqua;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text p{
+    color: antiquewhite;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+button{
+    margin-top: 100px;
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: tranform .5s;
+    cursor: pointer;
+}
+button:hover{
+    transition: transform .4s;
+    transform: scale(1.2);
+
+}
